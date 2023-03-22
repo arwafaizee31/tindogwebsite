@@ -1,0 +1,250 @@
+body{
+    font-family: 'Montserrat' , 'sans-serif';
+    background-color: #fff;
+    text-align: center;
+}
+
+/* sections */
+.coloured-section{
+    background-color: #ff4c68;
+    color:#ffffff;
+}
+
+.white-section{
+    background-color:#fff ;
+}
+/* sections end */
+#title{
+    
+    margin-bottom: 6%;
+    text-align: left;
+    
+
+
+}
+#title h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+/* nav bar */
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+/* buttons */
+.downbut{
+    margin: 5% 5% 5% 0;
+}
+/* title-image */
+.title-image{
+    width:60%;
+    transform: rotate(25deg);
+    
+/* position: absolute; */
+    margin-left: 50px;
+
+    
+}
+
+/* features */
+#features{
+    padding:0 8%;
+    
+/* position: relative; */
+
+   
+}
+
+/* icons */
+.big-i{
+    text-align: center;
+    margin-bottom: 3%;
+padding:5%;
+}
+
+.fas1{
+    font-size: 60px;
+    color:#ff584c;
+
+}
+#features h3{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.icon-div{
+    padding-bottom:2%;
+    margin:0 4%;
+}
+#features p{
+    color: #8f8f8f;
+}
+.fas1:hover{
+color:#530904;
+}
+
+/* testimonials section */
+#testimonials{
+    
+    
+    background-color: #ff584c;
+    /* id is at the higher ranking always63 */
+  
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width:10%;
+border-radius: 100%;
+margin: 20px;
+}
+.carousel-item
+{
+    padding:7% 15%;
+}
+
+/* press section */
+#press{
+   
+    background-color: #ff584c;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px 20px;
+}
+/* pricing section */
+#pricing h3{
+    font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+}
+.btn-block{
+    width:100%;
+}
+#pricing{
+    padding: 100px;
+    
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* stacking order always comes with the last one always on top */
+/* z index does not work with position static */
+
+/* media queries */
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+
+    }
+    #title h1{
+        font-size:80px;
+    }
+    #features p{
+        font-size: 40px;
+    }
+.fas1{
+    font-size: 100px;
+}
+#features h3{
+    font-size: 65px;
+}
+h2{
+    font-size: 3.2rem;
+}
+.testimonial-image{
+    width:30%;
+}
+#testimonials em{
+    font-size: 1.9rem;
+}
+.press-logo{
+    width:30%;
+}
+#pricing p{
+    font-size: 35px;
+}
+#pricing h3{
+    font-size: 40px;
+}
+#pricing h2{
+    font-size: 50px;
+}
+#footer p {
+font-size: 40px;
+}
+#footer i {
+font-size:100px;
+}
+}
+
+/* cta section */
+#cta{
+    
+    
+    padding:5% 7% 7% 7%;
+    
+
+
+}
+#cta h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+.youbut{
+    padding-top: 5%;
+}
+.kingbut{
+    padding:0 2%;
+}
+/* footer */
+
+#footer{
+    padding:7% 7% 7% 7%;
+
+
+}
+.footer-icon{
+    padding-bottom: 1%;
+}
+.copyright{
+    padding-top: 1%;
+}
+#footer i{
+    font-size: 20px;
+    padding:0 0.5%;
+}
+#kingbut{
+    margin:0 1%;
+}
+
+
